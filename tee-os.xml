@@ -64,18 +64,22 @@ remote="seL4"
     <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
     <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
     <linkfile src="build-config/configs-sel4" dest="configs"/>
-    <linkfile src="apps/hello-1" dest="apps/hello-1"/>
-    <linkfile src="apps/hello-2" dest="apps/hello-2"/>
-    <linkfile src="apps/hello-3" dest="apps/hello-3"/>
-    <linkfile src="apps/hello-4" dest="apps/hello-4"/>
-    <linkfile src="apps/hello-4-app" dest="apps/hello-4-app"/>
-    <linkfile src="apps/hello-timer" dest="apps/hello-timer"/>
-    <linkfile src="apps/hello-timer-client" dest="apps/hello-timer-client"/>
-    <linkfile src="apps/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
-    <linkfile src="apps/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
+
 </project>
 
-<!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
-<project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
+<project name="sel4-tee-os.git" path="projects/" remote="current" revision="master">
+	    <linkfile src="." dest="apps/sel4-tee-os"/>
+</project>
+
+<project name="sel4-tee-os-sample-app.git" path="projects/" remote="current" revision="master">
+	   
+	    <linkfile src="apps/sel4-tee-os-sample-app" dest="apps/hello-4-app"/>
+	   
+</project>
+<project name="sel4-client-os.git" path="projects/" remote="current" revision="master">
+	   
+	    <linkfile src="." dest="apps/client-os"/>
+	   
+</project>
 
 </manifest>
