@@ -5,7 +5,7 @@
 fetch="."
 />
 
-	<project name="sel4-tee-os.git" path="projects/" remote="current" >
+	<project name="sel4-tee-os.git" path="projects/" remote="current" revision="master">
 	    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
 	    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
 	    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
