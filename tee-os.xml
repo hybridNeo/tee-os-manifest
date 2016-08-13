@@ -68,12 +68,12 @@ remote="seL4"
 </project>
 
 <project name="sel4-tee-os.git" path="projects/tee-os" remote="current" revision="master">
-	    <linkfile src="projects/tee-os" dest="apps/sel4-tee-os"/>
+	    <linkfile src="." dest="apps/sel4-tee-os"/>
 </project>
 
 <project name="sel4-tee-os-sample-app.git" path="projects/" remote="current" revision="master">
 	   
-	    <linkfile src="projects/hello-4-app" dest="apps/hello-4-app"/>
+	    <linkfile src="." dest="apps/hello-4-app"/>
 	   
 </project>
 <project name="sel4-client-os.git" path="projects/client-os" remote="current" revision="master">
