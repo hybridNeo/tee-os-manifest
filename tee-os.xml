@@ -59,16 +59,8 @@ remote="seL4"
 
 <!-- the tee code -->
 
-<project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="3.2.x-compatible">
-    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
-    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
-    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
-    <linkfile src="build-config/configs-sel4" dest="configs"/>
-
-</project>
-
 <project name="sel4-tee-os.git" path="projects/tee-os" remote="current" revision="master">
-	    <linkfile src="." dest="apps/sel4-tee-os"/>
+	    <linkfile src="." dest="apps/tee-os"/>
 </project>
 
 <project name="sel4-tee-os-sample-app.git" path="projects/" remote="current" revision="master">
