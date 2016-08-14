@@ -66,11 +66,7 @@ remote="seL4"
 </project>
 
 <!-- the tee code -->
-<project name="tee-os-manifest.git" path="./" remote="current" revision="master">
-	    <linkfile src="Kbuild" dest="Kbuild"/>
-	    <linkfile src="Kconfig" dest="Kbuild"/>
-	    <linkfile src=".config" dest=".config"/>
-</project>
+
 <project name="sel4-tee-os.git" path="projects/tee-os" remote="current" revision="master">
 	    <linkfile src="." dest="apps/tee-os"/>
 </project>
