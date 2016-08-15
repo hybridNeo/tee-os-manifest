@@ -81,7 +81,12 @@ remote="seL4"
 	    <linkfile src="." dest="apps/client-os"/>
 	   
 </project>
-<project name="tee-os-manifest.git" path="./" remote="current" revision="master">
+<project name="sel4-client-os.git" path="projects/client-os" remote="current" revision="master">
+	   
+	    <linkfile src="." dest="apps/client-os"/>
+	   
+</project>
+<project name="sel4-tee-client-app.git" path="./" remote="current" revision="master">
 	   
 	 
 </project>
