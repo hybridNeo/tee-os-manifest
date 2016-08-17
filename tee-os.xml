@@ -18,6 +18,9 @@
 <remote name="seL4"
 fetch="."
 />
+<remote name="current"
+fetch="."
+/>
 
 <default revision="master"
 remote="seL4"
