@@ -15,12 +15,17 @@
 <!-- We assume this manifest is in the same path as all the libraries. If you are
      copying this manifest as a template then you probably want the fetch path
      for this to be '../seL4' instead of '.' -->
-<remote name="seL4"
-fetch="."
-/>
+
 <remote name="current"
 fetch="."
 />
+
+
+
+<remote name="seL4"
+fetch="../seL4"
+/>
+
 
 <default revision="master"
 remote="seL4"
