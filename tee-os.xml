@@ -74,7 +74,7 @@ remote="seL4"
 	   
 </project>
 <project name="tee-os-manifest.git" path="./" remote="current" revision="master">
-	 
+	  <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
 	  
 <project name="sel4-tee-client-app.git" path="projects/client-app" remote="current" revision="master">
